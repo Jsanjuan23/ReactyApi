@@ -184,6 +184,15 @@ cargar()
   return (
 
     <div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <div class="bg-secondary" align="left"><p class="text-info">|</p></div>
+          </div>
+          <div class="form-group col-md-6">
+            <div class="bg-secondary" align="right"><p class="text-info">|</p></div>
+          </div>
+        </div>
+
         <div class="bg-info">
         <h1 class="text-white" align="center">FORMULARIO</h1>
         </div>
