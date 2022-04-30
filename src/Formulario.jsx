@@ -184,17 +184,21 @@ cargar()
   return (
 
     <div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <div class="bg-secondary" align="left"><p class="text-info">|</p></div>
-          </div>
-          <div class="form-group col-md-6">
-            <div class="bg-secondary" align="right"><p class="text-info">|</p></div>
-          </div>
-        </div>
-
+        
         <div class="bg-info">
         <h1 class="text-white" align="center">FORMULARIO</h1>
+        </div>
+
+        <div class="form-row">
+        <div class="form-group col-md-3">
+            <div class="bg-secondary" align="left" style={{width:"100%", height:"30%", borderRadius:"30px"}}></div>
+            <div class="bg-success" align="left" style={{width:"70%", height:"30%", borderRadius:"30px"}}></div>
+            <div class="bg-info" align="left" style={{width:"40%", height:"30%", borderRadius:"30px"}}></div>
+          </div>
+          <div class="form-group col-md-9">
+            <div class="bg-white" align="rigth" ><p class="text-white">.</p></div>
+          </div>
+
         </div>
         <br />
         {
